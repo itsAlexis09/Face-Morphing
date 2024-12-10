@@ -30,4 +30,3 @@ if __name__ == "__main__":
 	image2 = cv2.imread(args.img2)
 
 	doMorphing(image1, image2, args.duration, args.frame, args.output)
-	
